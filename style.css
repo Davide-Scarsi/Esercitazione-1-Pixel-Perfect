@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(./assets/img/header.jpg);
+    background-position: 50%;
     width: 100%;
 }
 
@@ -30,7 +31,22 @@
     font-size: 108px;
     font-family: 'Electrolize';
     font-weight: 1000;
-    right: -3px;
-    position: relative;
-    top: 100px;
+}
+
+/* NAVBAR */
+
+.custom-navbar {
+    background-color: rgb(6, 57, 108);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.big-nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    height: 30px;
 }
