@@ -1,3 +1,36 @@
-.custom-header {
+@font-face {
+    font-family: 'Electrolize'; 
+    src: url('./assets/fonts/Electrolize-Regular.ttf');
+}
     
+@font-face    {font-family: 'Lato'; 
+    src: url('./assets/fonts/Lato-Regular.ttf');
+}
+
+
+/* HEADER */
+
+.custom-header{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/img/header.jpg);
+    width: 100%;
+}
+
+.blue-box {
+    margin: 0;
+    background-color: rgb(6, 57, 108, 0.72);
+    height: 100vh;
+    width: 100%;
+}
+
+.custom-h1 {
+    font-size: 108px;
+    font-family: 'Electrolize';
+    font-weight: 1000;
+    right: -3px;
+    position: relative;
+    top: 100px;
 }
