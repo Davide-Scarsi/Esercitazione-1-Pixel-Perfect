@@ -7,6 +7,10 @@
     src: url('./assets/fonts/Lato-Regular.ttf');
 }
 
+@font-face    {font-family: 'Lato bold'; 
+    src: url('./assets/fonts/Lato-Bold.ttf');
+}
+
 
 /* HEADER */
 
@@ -113,4 +117,105 @@
         left: -10px;
     }
     
+}
+
+/* SECTION-MEGALOREM */
+
+
+.custom-h2 {
+    margin: 0%;
+    padding: 90px 0px 20px 45px;
+    font-size: 80px;
+    font-family: 'Electrolize';
+    font-weight: 500;
+}
+
+.container-section-m-row {
+    /* height: 600px; */
+}
+
+.info-box-left {
+    padding: 20px 20px 20px 6%;
+}
+
+.info-box-center {
+    padding: 20px 4% 20px 4%;
+}
+
+.info-box-right {
+    padding: 20px 6% 150px 20px;
+}
+
+.megalorem-p-info {
+    position: relative;
+    height: 215px;
+    font-size: 28px;
+    padding-bottom: 30px;
+    margin: 0;
+    font-family: "Lato";
+}
+
+.megalorem-p-info:before {
+    top: -50px;
+    left: -47px;
+    content: "\275D";
+    color: rgb(6, 57, 108);
+    position: absolute;
+    font-size: 90px;
+    font-family: "Lato";
+}
+
+.megalorem-span-title {
+    font-size: 28px;
+    font-family: "Lato bold";
+    color: rgb(6, 57, 108);
+    font-weight: 1000;
+}
+
+.megalorem-span-subtitle {
+    font-size: 22px;
+    font-family: "Lato";
+    font-weight: 1000;
+}
+
+
+@media screen and (max-width: 1755px){
+
+    .megalorem-p-info {
+        height: 375px;
+    }
+}
+
+@media screen and (max-width: 1340px){
+
+    .info-box {
+        padding: 20px 20px 150px 6%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+   
+    .megalorem-p-info {
+        height: 170px;
+    }
+
+}
+
+@media screen and (max-width: 772px) {
+
+    .custom-h2 {
+        margin: 0%;
+        padding: 20px 20px 20px 20px;
+        font-size: 60px;
+    }
+   
+    .megalorem-p-info {
+        height: 250px;
+    }
+
+    .megalorem-p-info:before {
+        left: -22px;
+        font-size: 60px;
+
+    }
 }
