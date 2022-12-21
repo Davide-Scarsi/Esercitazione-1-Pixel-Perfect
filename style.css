@@ -124,15 +124,12 @@
 
 .custom-h2 {
     margin: 0%;
-    padding: 90px 0px 20px 45px;
+    padding: 90px 0px 70px 45px;
     font-size: 80px;
     font-family: 'Electrolize';
     font-weight: 500;
 }
 
-.container-section-m-row {
-    /* height: 600px; */
-}
 
 .info-box-left {
     padding: 20px 20px 20px 6%;
@@ -147,10 +144,10 @@
 }
 
 .megalorem-p-info {
+    padding: 0 15px 30px 15px;
     position: relative;
     height: 215px;
     font-size: 28px;
-    padding-bottom: 30px;
     margin: 0;
     font-family: "Lato";
 }
@@ -166,6 +163,8 @@
 }
 
 .megalorem-span-title {
+    
+    padding: 0 15px 30px 15px;
     font-size: 28px;
     font-family: "Lato bold";
     color: rgb(6, 57, 108);
@@ -173,6 +172,8 @@
 }
 
 .megalorem-span-subtitle {
+    
+    padding: 0 15px 30px 15px;
     font-size: 22px;
     font-family: "Lato";
     font-weight: 1000;
@@ -218,4 +219,124 @@
         font-size: 60px;
 
     }
+}
+
+/* SECTION-POWER-LOREM */
+
+
+.section-p-background {
+    background-image: url(./assets/img/power-plant-4712830_1280.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top;
+    height: 690px;
+}
+
+.blue-box-section-p {
+    position: relative;
+    margin: 0;
+    background-color: rgb(6, 57, 108, 0.5);
+    width: 100%;
+    height: 690px;
+}
+
+.section-p-icon-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 50px;
+}
+
+.section-p-custom-h2 {
+    position: absolute;
+    top: 56px;
+    left: 43px;
+    font-size: 110px;
+    font-family: "Electrolize";
+}
+
+@media screen and (max-width: 998px) {
+
+    .section-p-custom-h2 {
+        font-size: 50px;
+    }
+
+    .section-p-text {
+        font-size: 20px;
+    }
+    
+}
+
+/* SECTION-OVERLAP */
+
+.section-o-background {
+    position: relative;
+    background-color: white
+}
+
+.section-o-blue-box {
+    background-color: rgb(6, 57, 108);
+    position: absolute;
+    width: 53%;
+    left: 90px;
+    top: -137px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.section-o-blue-box-title, .section-o-white-box-title {
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.section-o-white-box-text {
+    padding: 17px 100px 114px 0px;
+    font-size: 21px;
+}
+
+.section-o-white-box {
+    color: black;
+    background-color: white;
+    position: absolute;
+    width: 47%;
+    right: 0;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+@media screen and (max-width: 1490px) {
+
+    .section-o-background {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-o-blue-box, .section-o-white-box {
+        border: 0ch;
+        position: static;
+        background-color: rgb(6, 57, 108);
+        width: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .section-o-white-box {
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 998px) {
+
+    
 }
