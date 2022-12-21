@@ -39,6 +39,7 @@
     background-color: rgb(6, 57, 108);
     height: 100px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -49,4 +50,67 @@
 
 .nav-logo {
     height: 30px;
+}
+
+.nav-span {
+    height: 100%;
+    position: relative;
+    margin-left: 60px;
+    padding-right: 10px;
+}
+
+.nav-span:before, .nav-span-link:before {
+    content: "";
+    left: -30px;
+    top: 4px;
+    position: absolute;
+    height: 60%;
+    width: 2px;
+    background-color: white;
+}
+
+.nav-span-link:before {
+    left: -15px;
+}
+
+.nav-list {
+    padding:0; 
+    margin:0;
+    display: flex;
+    list-style: none;
+    justify-content:center;
+}
+
+.nav-span-link {
+    margin-left: 30px;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav-container-logo {
+        width: 50px;
+    }
+
+    .nav-span,.nav-span-link {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .nav-span {
+        margin-left: 20px;
+    }
+
+    .nav-span:before {
+        left: -10px;
+    }
+
+    .nav-span-link {
+        margin-left: 18px;
+        position: relative;
+    }
+    .nav-span-link:before {
+        left: -10px;
+    }
+    
 }
