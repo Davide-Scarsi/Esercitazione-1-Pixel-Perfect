@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'Electrolize';
     src: url('./assets/fonts/Electrolize-Regular.ttf');
@@ -14,16 +20,12 @@
     font-weight: bold;
 }
 
+
 .text {
     font-family: 'Lato';
     font-size: 28px;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 /* HEADER */
 
@@ -382,6 +384,7 @@
 }
 
 .section-d-map-container {
+    margin-top: 100px;
     display: flex;
 }
 
@@ -496,3 +499,64 @@
 .section-fc-bottomright-absolute {
     background-image: url(./assets/img/wave.png);
 }
+
+/* STUFF-SECTION */
+
+.section-s-container {
+    background-color: rgba(255, 255, 255, 0);
+    height: 300px;
+}
+
+.section-s-blue-box {
+    background-color: rgb(6, 57, 108);
+    height: 450px;
+    position: relative;
+    top: 135px ;
+}
+
+.custom-h2 {
+    font-size: 110px;
+    font-family: "Electrolize";
+    margin-bottom: 5%;
+}
+
+.section-s-img {
+    position: relative;
+    z-index: 10;
+    height: 210px;
+    width: 350px;
+    padding: 10px;
+    background-color: blueviolet;
+    margin-bottom: 30px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.section-s-img {
+    background-image: url(https://picsum.photos/200);
+}
+
+.section-s-icon {
+    margin-top: 20px;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px){
+    
+.six-img-responsive {
+    justify-content: center !important;
+}
+
+}
+
+@media screen and (max-width: 768px){
+    .custom-h2 {
+        font-size: 60px;
+        margin-bottom: 40%;
+    }
+}
+
