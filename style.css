@@ -504,7 +504,6 @@
 
 .section-s-container {
     background-color: rgba(255, 255, 255, 0);
-    height: 300px;
 }
 
 .section-s-blue-box {
@@ -560,3 +559,146 @@
     }
 }
 
+/* DOWNLOAD SECTION */
+
+.section-dw-container {
+    margin-top: 200px;
+}
+
+.section-dw-box {
+    height: 250px;
+    width: 400px;
+    box-shadow: 0 0 30px 1px rgb(136, 135, 135);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-dw-threebox-container {
+    margin-top: 40px;
+}
+
+.section-dw-text {
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 768px){
+
+.section-dw-container .custom-h3 {
+    font-size: 33px;
+}
+
+}
+
+/* <!-- DESCRIPTION-SECTION --> */
+
+.section-de-container {
+    margin-top: 150px;
+}
+
+.section-de-bar {
+    height: 10px;
+    width: 40%;
+    background-color: rgb(6, 57, 108);
+}
+
+.section-de-text {
+    margin-top: 10px;
+}
+
+.section-de-bar-two {
+    width: 50%;
+}
+
+.section-de-bar-three {
+    width: 60%;
+}
+
+.section-de-bar-four {
+    width: 70%;
+}
+
+.section-de-bar-five {
+    width: 55%;
+}
+
+/* FOOTER */
+
+.custom-footer {
+    margin-top: 150px;
+    background-color: black;
+}
+
+.custom-footer .custom-h3 {
+    color: white;
+}
+
+.footer-img {
+    margin: 70px 0;
+    height: 47px;
+    width: 66px
+}
+
+.section-footer-row {
+    padding: 30px;
+}
+
+.footer-text {
+    margin: 50px 0;
+    font-family: 'Lato';
+    font-size: 16px;
+    color: rgb(134, 134, 134);
+}
+
+.footer-right {
+    position: relative;
+}
+
+.footer-bluebox {
+    position: absolute;
+    height: 469px;
+    width: 530px;
+    background-color: rgb(6, 57, 108);
+    top: -124px;
+    left: 173px;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bluebox-box-text {
+    padding: 25px;
+}
+
+.footer-bluebox-text {
+    margin: 26px 0;
+}
+
+@media screen and (max-width: 1428px){
+
+    .footer-bluebox {
+        position: static;
+        height: auto;
+        width: 100%;
+        background-color: rgb(6, 57, 108);
+        top: 0;
+        left: 0;
+        padding: 70px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-bluebox-text {
+        font-size: 13px;
+    }
+    
+    .custom-footer .custom-h3 {
+        font-size: 32px;
+    }
+
+}
