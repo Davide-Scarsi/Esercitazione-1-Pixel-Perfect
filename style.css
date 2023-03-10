@@ -13,6 +13,54 @@
     src: url('./assets/fonts/Lato-Bold.ttf');
 }
 
+.all-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mockup-container{
+    position: fixed;
+    z-index: 10;
+    height: 80px;
+    aspect-ratio: 1;
+    top: 50px;
+    right: 50px;
+    background: rgb(36, 34, 34);
+    border-radius: 50%;
+    border: 2px dashed white;
+}
+
+.mockup-img{
+    border: 1px solid black;
+    position: fixed;
+    z-index: 20;
+    top: 10px;
+    left: 12px;
+    background-image: url(./assets/img/mockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 98vh;
+}
+
+.mockup-img-0{
+    background-position-y: top;
+
+}
+
+.mockup-img-25{
+    background-position-y: center;
+}
+
+.mockup-img-50{
+    background-position-y: bottom;
+}
+
+
+
+
+
 .custom-h3 {
     color: rgb(6, 57, 108);
     font-family: 'Electrolize';
