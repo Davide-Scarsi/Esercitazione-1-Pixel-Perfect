@@ -38,13 +38,27 @@ document.addEventListener("scroll", function(){
 // MOCKUP BUTTON
 
 mockup.addEventListener("click", ()=>{
+
+    spin ()
+
     if(toggle === false){
-        mockupImg.classList.remove("d-none")
+        mockUpContainer.innerHTML=`
+        <div class="mockup-img mockup-img-0">   
+        </div>`
         toggle = true
         console.log(toggle);
     } else {
-        mockupImg.classList.add("d-none")  
+        mockUpContainer.innerHTML=`
+        <div class="mockup-img mockup-img-0 d-none">   
+        </div>` 
         toggle = false
         console.log(toggle);
     }
 })
+
+function spin (){
+    mockup.classList.add("spin")
+    setTimeout(()=>{
+        mockup.classList.remove("spin")
+    },400)
+}

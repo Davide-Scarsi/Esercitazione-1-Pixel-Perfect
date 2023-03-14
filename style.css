@@ -20,6 +20,7 @@
 }
 
 .mockup-container{
+    cursor: pointer;
     position: fixed;
     z-index: 10;
     height: 80px;
@@ -57,8 +58,15 @@
     background-position-y: bottom;
 }
 
+.spin{
+  animation-name: spin;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
 
-
+@keyframes spin {
+    100% {transform: rotate(360deg)}
+}
 
 
 .custom-h3 {
